@@ -1,4 +1,4 @@
-module.exports.redact = function redact(text,ignoreSpaces,start,stop){
+var redact = function redact(text,ignoreSpaces,start,stop){
   var output = "";
   for(var i=0; i<text.length; i++){
     if(i < start || i> stop){
@@ -15,3 +15,4 @@ module.exports.redact = function redact(text,ignoreSpaces,start,stop){
   }
   return output;
 }
+module.exports = redact;

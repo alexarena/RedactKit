@@ -24,8 +24,8 @@ Becomes this:
 ## Quick Start
 
 1. Install with NPM: `npm install redactkit`
-2. Add it to your project: `var redactkit = require(‘redactkit’)`
-3. Use it: `redactkit.redact('Hide me'); \\ returns '████ ██'`
+2. Add it to your project: `var redact = require(‘redactkit’)`
+3. Use it: `redact('Hide me'); \\ returns '████ ██'`
 
 ## API
 
