@@ -1,6 +1,6 @@
 {
   "name": "redactkit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Quickly redact text in Node.js",
   "main": "redactkit.js",
   "dependencies": {},
