@@ -3,7 +3,7 @@ Quickly redact text in Node.js
 ## About
 What exactly does redacting text mean in this context? Basically, replacing any character (except newlines and optionally, spaces) with '&#9608;', the full block character. That's it!
 
-## Examples
+## Example
 
 This:
 
